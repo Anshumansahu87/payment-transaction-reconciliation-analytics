@@ -1,0 +1,5 @@
+payment_gateway,transactions,success_rate,transaction_value
+Cashfree,237,83.12,1725862.01
+Razorpay,256,81.25,1945210.17
+Stripe,263,80.61,1871555.38
+PayU,244,77.87,1828510.1
