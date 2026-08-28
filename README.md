@@ -1,17 +1,18 @@
-\# Payment Transaction & Reconciliation Analytics
+# Payment Transaction & Reconciliation Analytics
 
-A portfolio project for analyzing payment transactions, gateway performance, settlement variance, reconciliation status, and transaction anomalies using SQL and Python.
+A portfolio project focused on analyzing payment transactions, gateway performance, settlement variance, reconciliation status, and transaction anomalies using SQL and Python.
 
 ## 🎯 Objective
 
-Analyze payment transaction data to monitor key payment KPIs and identify:
+The objective of this project is to analyze payment transaction data and monitor important payment KPIs such as:
 
 - Transaction success and failure rates
 - Payment gateway performance
 - Payment method performance
 - Settlement variance
-- Reconciliation issues
-- Failure patterns
+- Reconciliation status
+- Failure reasons
+- Daily transaction trends
 - Transaction-volume drop-offs and anomalies
 
 ## 🛠️ Tech Stack
@@ -19,8 +20,8 @@ Analyze payment transaction data to monitor key payment KPIs and identify:
 - **SQL:** CTEs, Joins, Window Functions, Aggregations, Subqueries
 - **Python:** Pandas, NumPy
 - **Database:** PostgreSQL
-- **Analytics:** Data Cleaning, EDA, ETL, KPI Analysis, Anomaly Detection
-- **Visualization:** Power BI / Excel-ready outputs
+- **Analytics:** Data Cleaning, EDA, KPI Analysis, Anomaly Detection
+- **Visualization:** Excel / Power BI
 - **Tools:** VS Code, Git, GitHub
 
 ## 📁 Project Structure
@@ -38,6 +39,10 @@ Payment-Transaction-Reconciliation-Analytics/
 ├── sql/
 │   ├── schema.sql
 │   └── analytics_queries.sql
+│
+├── dashboard/
+│   ├── Payment_Transaction_Analytics_Dashboard.xlsx
+│   └── Payment_Transaction_Analytics_Dashboard.pdf
 │
 ├── daily_payment_kpis.csv
 ├── gateway_performance.csv
